@@ -41,3 +41,15 @@ La impresión de la lista completa.
 La búsqueda de un producto por ID.
 El filtrado de productos por categoría.
 La incorporación de un nuevo producto usando Agregar(...).
+
+Producto.cs
+
+Define los datos: Id, Nombre, Precio, Categoría y Activo.
+
+IProductoRepository.cs
+
+Define las operaciones que deben existir.
+
+ProductoRepository.cs
+
+Contiene el código que ejecuta las operaciones, por ejemplo, usando una lista.
